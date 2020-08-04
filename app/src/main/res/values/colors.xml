@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="mainBG">#00EEEE</color>
+    <color name="topBlue">#00EEEE</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="editBG">#DFDFDF</color>
+    <!--发现页面顶部颜色-->
+    <color name="top_bg_blue">#00AAFF</color>
+    <color name="top_bg_blue1">#00EEEE</color>
+    <color name="top_bg_gray">#DFDFDF</color>
+</resources>

@@ -1,0 +1,13 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <!--无功能栏-->
+    <style name="AppTheme2" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimaryDark">@color/top_bg_blue</item>
+    </style>
+
+</resources>

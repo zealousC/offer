@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/type_bar"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:orientation="horizontal"
+android:background="#ffffff"
+android:layout_alignParentBottom="true">
+<TextView
+    android:id="@+id/t_search"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:padding="8dp"
+    android:gravity="center_horizontal"
+    android:textSize="13sp"
+    android:text="发现"></TextView>
+<TextView
+    android:id="@+id/t_message"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:padding="8dp"
+    android:gravity="center_horizontal"
+    android:textSize="13sp"
+    android:text="消息"></TextView>
+<TextView
+    android:id="@+id/t_collection"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:padding="8dp"
+    android:gravity="center_horizontal"
+    android:textSize="13sp"
+    android:text="收藏"></TextView>
+<TextView
+    android:id="@+id/t_user"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:padding="8dp"
+    android:gravity="center_horizontal"
+    android:textSize="13sp"
+    android:text="我的"></TextView>
+</LinearLayout>

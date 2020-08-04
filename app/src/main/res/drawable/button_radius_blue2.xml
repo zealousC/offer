@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--button未点击，初始状态时蓝色空心-->
+    <item android:state_pressed="false" android:drawable="@drawable/button_drawable_style2"/>
+
+    <!--button点击时,蓝框实心-->
+    <item android:state_pressed="true" android:drawable="@drawable/button_drawable_style"/>
+
+</selector>

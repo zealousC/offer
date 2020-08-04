@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/top_bg_blue"
+    android:padding="20dp"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/user_head_image"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="8dp"
+        android:background="@mipmap/user_head_photo_default"></ImageView>
+    <TextView
+        android:id="@+id/user_head_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="发现"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="5dp"
+        android:textColor="@color/top_bg_blue1"/>
+    <ImageView
+        android:id="@+id/user_sex_image"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:background="@mipmap/user_head_photo_default"/>
+</LinearLayout>
